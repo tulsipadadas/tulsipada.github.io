@@ -13,7 +13,7 @@ export const testimonialsData = [
         id: 1,
         name: 'Chandan Singh',
         title: 'Indian Youtuber',
-        text: "I had the pleasure of working with Tulsipada on a YouTube automation script, and I must say, the experience was absolutely fantastic. Tulsipada's expertise and professionalism truly impressed me, and the results of the project exceeded my expectations.",
+        text: "Tulsipada's expertise and professionalism truly impressed me, and the results of the project exceeded my expectations.",
         image: boy2
     },
     {
