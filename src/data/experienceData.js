@@ -14,10 +14,20 @@ export const experienceData = [
     //     endYear: '2020'
     // },
     {
-        id: 1,
-        company: 'CodeWarrior Technologles',
-        jobtitle: 'NodeJs Developer',
-        startYear: '2022',
-        endYear: 'Present'
+        id: 2,
+        company: 'YapBuzz LLC',
+        jobtitle: 'Jr. NodeJs Developer',
+        startYear: ' 06 JUN 2022 ',
+        endYear: ' Present ',
+        address: "Emory, Texas, United States"
     },
+    {
+        id: 1,
+        company: 'Ricomputech Private Limited',
+        jobtitle: 'Intern NodeJs Developer',
+        startYear: ' 01 JUN 2022 ',
+        endYear: ' 06 JUN 2022 ',
+        address: "Kolkata, West Bengal, India"
+    },
+
 ]
