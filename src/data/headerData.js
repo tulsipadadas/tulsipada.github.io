@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/resume.pdf'
-import profileImg from "../assets/IMG/Tulsipada.png";
+import profileImg from "../assets/IMG/Tulsipada.jpg";
 
 
 export const headerData = {
