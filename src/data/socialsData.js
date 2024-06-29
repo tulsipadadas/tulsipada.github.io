@@ -7,8 +7,8 @@ export const socialsData = {
     // twitter: 'https://twitter.com/',
     // reddit: 'https://www.reddit.com/user/',
     blogger: 'https://blog.tulsipada.in/',
-    // medium: 'https://medium.com/@',
+    medium: 'https://medium.com/@tulsipada',
     // stackOverflow: 'https://stackoverflow.com/users/',
-    // gitlab: 'https://gitlab.com/',
+    gitlab: 'https://gitlab.com/tulsipada',
     youtube: 'https://youtube.com/@tulsipada'
 }
