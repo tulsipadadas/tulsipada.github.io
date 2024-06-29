@@ -16,7 +16,7 @@ export const experienceData = [
     {
         id: 2,
         company: 'YapBuzz LLC',
-        jobtitle: 'Jr. NodeJs Developer',
+        jobtitle: 'Sr. NodeJs Developer',
         startYear: ' 06 JUN 2022 ',
         endYear: ' Present ',
         address: "Emory, Texas, United States"
