@@ -431,6 +431,7 @@ function Contacts() {
                 src={theme.contactsimg}
                 alt='contacts'
                 className='contacts--img'
+                loading="lazy"
             />
         </div>
     );

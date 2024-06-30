@@ -74,6 +74,7 @@ function Testimonials() {
                                                 <img
                                                     src={test.image}
                                                     alt={test.name}
+                                                    loading="lazy"
                                                 />
                                             </div>
                                             <div
