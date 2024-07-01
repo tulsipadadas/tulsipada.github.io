@@ -139,16 +139,15 @@ function Contacts() {
                     email: email,
                     message: message,
                 };
-
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
-
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
+                setMessage('');
+                setName('');
+                setEmail('');
+                setSuccess(true);
+                setOpen(false);
+                axios.post(contactsData.sheetAPI, JSON.stringify(responseData)).then((res) => {
+                    if (res.status === 200) {
+                        setErrMsg('Message sent successfully');
+                    }
                 });
             } else {
                 setErrMsg('Invalid email');
@@ -192,7 +191,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='yourmail@gmail.com'
+                                    placeholder='yourmail@example.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'

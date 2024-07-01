@@ -65,7 +65,7 @@ function Blog() {
 
                         {blogData.length > 3 && (
                             <div className="blog--viewAll">
-                                <Link to="/blog">
+                                <Link to={{ pathname: "https://blog.tulsipada.in" }} target="_blank">
                                     <button className={classes.viewAllBtn}>
                                         View All
                                         <HiArrowRight className={classes.viewArr} />

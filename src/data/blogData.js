@@ -1,11 +1,11 @@
 export const blogData = [
     {
         id: 1,
-        title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
-        description: 'Here we will use Selenium to navigate between web pages, and try to scrape data from them.',
-        date: 'Aug 7, 2020',
-        image: 'https://1.bp.blogspot.com/-6vZQoWcIZeo/Xvw5ZD5Y53I/AAAAAAAABgI/GH2b5OuMaXAKuigK4diBbeYDW6dD3qVvgCK4BGAsYHg/w400-h225/selenium.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/scraping-billboard-and-imdb-using.html'
+        title: 'How to Create a REST API Using Loopback 4',
+        description: 'Creating a REST API is an essential skill for any modern developer. In this article, we will explore how to harness the power of Loopback 4, a powerful Node.js framework, to easily build and deploy RESTful APIs',
+        date: 'Aug 21, 2023',
+        image: '',
+        url: 'https://blog.tulsipada.in/2023/08/how-to-create-rest-api-using-loopback-4.html'
     },
     {
         id: 2,

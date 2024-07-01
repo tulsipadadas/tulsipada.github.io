@@ -36,6 +36,15 @@ export const projectsData = [
         demo: 'https://github.com/tulsipada',
         image: three
     },
+    {
+        id: 4,
+        projectName: 'Weather App',
+        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
+        tags: ['Django', 'CSS', 'Material Ui'],
+        code: 'https://github.com/tulsipada',
+        demo: 'https://github.com/tulsipada',
+        image: three
+    },
 ]
 
 
