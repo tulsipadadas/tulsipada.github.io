@@ -13,7 +13,7 @@ export const projectsData = [
         id: 1,
         projectName: 'Trading Bot',
         projectDesc: 'This project aims to build an Bot system that Trade on Bitcoin',
-        tags: ['React', 'Nodejs', 'Mongodb'],
+        tags: ['React', 'Nodejs'],
         code: 'https://github.com/tulsipada',
         demo: 'https://github.com/tulsipada',
         image: one
