@@ -25,11 +25,11 @@ jobs:
         run: npm run build
 
       - name: Verify dist directory exists
-        run: ls -l dist
+        run: ls -l ./dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: ./dist
           name: github-pages
           retention-days: 1
