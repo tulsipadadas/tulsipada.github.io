@@ -27,11 +27,11 @@ export const servicesData = [
         title: 'Internet Research',
         icon: <FaInternetExplorer />
     },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
+    {
+        id: 5,
+        title: 'Tutoring',
+        icon: <FaChalkboardTeacher />
+    },
 
     {
         id: 6,
