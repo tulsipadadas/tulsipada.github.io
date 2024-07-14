@@ -43,11 +43,11 @@ export const servicesData = [
     //     title: 'Photography',
     //     icon: <FaCameraRetro />
     // },
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // }, 
+    {
+        id: 8,
+        title: 'Pinterest Virtual Assistant',
+        icon: <FaPinterest />
+    }, 
     {
         id: 9,
         title: 'Video Editing',
