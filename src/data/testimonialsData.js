@@ -16,13 +16,13 @@ export const testimonialsData = [
         text: "Tulsipada's expertise and professionalism truly impressed me, and the results of the project exceeded my expectations.",
         image: boy2
     },
-    // {
-    //     id: 2,
-    //     name: 'Monica Geller',
-    //     title: 'Head Chef',
-    //     text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-    //     image: girl2
-    // },
+    {
+        id: 2,
+        name: 'Monica Geller',
+        title: 'Head Chef',
+        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
+        image: girl2
+    },
     {
         id: 3,
         name: 'Phoebe Buffay',
