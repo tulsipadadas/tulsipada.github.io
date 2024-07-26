@@ -318,9 +318,9 @@ function Contacts() {
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
-                                    aria-label='Twitter' 
+                                    aria-label='Twitter'
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <FaTwitter aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.github && (
@@ -331,7 +331,7 @@ function Contacts() {
                                     className={classes.socialIcon}
                                     aria-label='GitHub'
                                 >
-                                    <FaGithub aria-label='GitHub' />
+                                    <FaGithub aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.linkedIn && (
@@ -339,10 +339,10 @@ function Contacts() {
                                     href={socialsData.linkedIn}
                                     target='_blank'
                                     rel='noreferrer'
-                                    aria-label='LinkedIn' 
+                                    aria-label='LinkedIn'
                                     className={classes.socialIcon}
                                 >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
+                                    <FaLinkedinIn aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.instagram && (
@@ -353,7 +353,7 @@ function Contacts() {
                                     className={classes.socialIcon}
                                     aria-label='Instagram'
                                 >
-                                    <FaInstagram aria-label='Instagram' />
+                                    <FaInstagram aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.medium && (
@@ -364,7 +364,7 @@ function Contacts() {
                                     aria-label='Medium'
                                     className={classes.socialIcon}
                                 >
-                                    <FaMediumM aria-label='Medium' />
+                                    <FaMediumM aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.blogger && (
@@ -375,7 +375,7 @@ function Contacts() {
                                     aria-label='Blogger'
                                     className={classes.socialIcon}
                                 >
-                                    <FaBloggerB aria-label='Blogger' />
+                                    <FaBloggerB aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.youtube && (
@@ -383,10 +383,10 @@ function Contacts() {
                                     href={socialsData.youtube}
                                     target='_blank'
                                     rel='noreferrer'
-                                    aria-label='YouTube' 
+                                    aria-label='YouTube'
                                     className={classes.socialIcon}
                                 >
-                                    <FaYoutube aria-label='YouTube' />
+                                    <FaYoutube aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.reddit && (
@@ -397,7 +397,7 @@ function Contacts() {
                                     aria-label='Reddit'
                                     className={classes.socialIcon}
                                 >
-                                    <FaRedditAlien aria-label='Reddit' />
+                                    <FaRedditAlien aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.stackOverflow && (
@@ -408,7 +408,7 @@ function Contacts() {
                                     aria-label='Stack Overflow'
                                     className={classes.socialIcon}
                                 >
-                                    <FaStackOverflow aria-label='Stack Overflow' />
+                                    <FaStackOverflow aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.codepen && (
@@ -419,7 +419,7 @@ function Contacts() {
                                     aria-label='CodePen'
                                     className={classes.socialIcon}
                                 >
-                                    <FaCodepen aria-label='CodePen' />
+                                    <FaCodepen aria-hidden='true' />
                                 </a>
                             )}
                             {socialsData.gitlab && (
@@ -430,7 +430,7 @@ function Contacts() {
                                     aria-label='GitLab'
                                     className={classes.socialIcon}
                                 >
-                                    <FaGitlab aria-label='GitLab' />
+                                    <FaGitlab aaria-hidden='true' />
                                 </a>
                             )}
                         </div>
