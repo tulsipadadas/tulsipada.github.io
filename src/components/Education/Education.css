@@ -63,7 +63,7 @@
     font-family: var(--primaryFont);
     font-size: 0.85rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
 }
 
 .education-details > h4 {
@@ -143,7 +143,7 @@
     }
     .education-details > p {
         font-size: 0.85rem;
-        margin-bottom: 0.45rem;
+        /* margin-bottom: 0.45rem; */
     }
     
     .education-details > h4 {
