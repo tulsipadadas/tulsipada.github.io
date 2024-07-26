@@ -80,6 +80,7 @@ function Landing() {
                                 href={socialsData.linkedIn}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='LinkedIn'
                             >
                                 <FaLinkedin
                                     className='landing--social'
@@ -93,6 +94,7 @@ function Landing() {
                                 href={socialsData.github}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='GitHub'
                             >
                                 <FaGithub
                                     className='landing--social'
@@ -106,6 +108,7 @@ function Landing() {
                                 href={socialsData.twitter}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='Twitter'
                             >
                                 <FaTwitter
                                     className='landing--social'
@@ -119,6 +122,7 @@ function Landing() {
                                 href={socialsData.youtube}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='YouTube'
                             >
                                 <FaYoutube
                                     className='landing--social'
@@ -132,6 +136,7 @@ function Landing() {
                                 href={socialsData.blogger}
                                 target='_blank'
                                 rel='noreferrer'
+                                 aria-label='Blogger'
                             >
                                 <FaBlogger
                                     className='landing--social'
