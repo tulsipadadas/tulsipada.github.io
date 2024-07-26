@@ -185,6 +185,7 @@ function Landing() {
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'
+                                aria-label='contacts'
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
