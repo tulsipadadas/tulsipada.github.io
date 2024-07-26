@@ -318,6 +318,7 @@ function Contacts() {
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
+                                    aria-label='Twitter' 
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
@@ -328,6 +329,7 @@ function Contacts() {
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
+                                    aria-label='GitHub'
                                 >
                                     <FaGithub aria-label='GitHub' />
                                 </a>
@@ -337,6 +339,7 @@ function Contacts() {
                                     href={socialsData.linkedIn}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='LinkedIn' 
                                     className={classes.socialIcon}
                                 >
                                     <FaLinkedinIn aria-label='LinkedIn' />
@@ -348,6 +351,7 @@ function Contacts() {
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
+                                    aria-label='Instagram'
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
@@ -357,6 +361,7 @@ function Contacts() {
                                     href={socialsData.medium}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Medium'
                                     className={classes.socialIcon}
                                 >
                                     <FaMediumM aria-label='Medium' />
@@ -367,6 +372,7 @@ function Contacts() {
                                     href={socialsData.blogger}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Blogger'
                                     className={classes.socialIcon}
                                 >
                                     <FaBloggerB aria-label='Blogger' />
@@ -377,6 +383,7 @@ function Contacts() {
                                     href={socialsData.youtube}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='YouTube' 
                                     className={classes.socialIcon}
                                 >
                                     <FaYoutube aria-label='YouTube' />
@@ -387,6 +394,7 @@ function Contacts() {
                                     href={socialsData.reddit}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Reddit'
                                     className={classes.socialIcon}
                                 >
                                     <FaRedditAlien aria-label='Reddit' />
@@ -397,6 +405,7 @@ function Contacts() {
                                     href={socialsData.stackOverflow}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Stack Overflow'
                                     className={classes.socialIcon}
                                 >
                                     <FaStackOverflow aria-label='Stack Overflow' />
@@ -407,6 +416,7 @@ function Contacts() {
                                     href={socialsData.codepen}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='CodePen'
                                     className={classes.socialIcon}
                                 >
                                     <FaCodepen aria-label='CodePen' />
@@ -417,6 +427,7 @@ function Contacts() {
                                     href={socialsData.gitlab}
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='GitLab'
                                     className={classes.socialIcon}
                                 >
                                     <FaGitlab aria-label='GitLab' />
