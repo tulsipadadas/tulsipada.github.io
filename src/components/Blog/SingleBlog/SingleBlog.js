@@ -14,7 +14,7 @@ function SingleBlog({ theme, title, desc, date, image, url, id }) {
                 <div className="singleBlog--body">
                     <p style={{color: theme.tertiary}}>{date}</p>
                     <h3 style={{color: theme.secondary}}>{title}</h3>
-                    <h6 style={{color: theme.secondary}}>{desc}</h6>
+                    <p style={{color: theme.secondary}}>{desc}</p>
                 </div>
             </a>
         </Fade>

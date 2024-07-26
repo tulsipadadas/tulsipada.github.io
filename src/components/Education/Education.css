@@ -59,7 +59,7 @@
     margin-left: 0.6rem;
 }
 
-.education-details > h6 {
+.education-details > p {
     font-family: var(--primaryFont);
     font-size: 0.85rem;
     font-weight: 700;
@@ -141,7 +141,7 @@
     .educard-img > img {
         width: 30px;
     }
-    .education-details > h6 {
+    .education-details > p {
         font-size: 0.85rem;
         margin-bottom: 0.45rem;
     }
