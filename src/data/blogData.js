@@ -1,20 +1,20 @@
 export const blogData = [
-    {
-        id: 1,
-        title: 'How to Create a REST API Using Loopback 4',
-        description: 'Creating a REST API is an essential skill for any modern developer. In this article, we will explore how to harness the power of Loopback 4, a powerful Node.js framework, to easily build and deploy RESTful APIs',
-        date: 'Aug 21, 2023',
-        image: '',
-        url: 'https://blog.tulsipada.in/2023/08/how-to-create-rest-api-using-loopback-4.html'
-    },
-    {
-        id: 2,
-        title: 'CHECK WEATHER FROM TERMINAL USING WTTR.IN',
-        description: 'wttr.in is a console-oriented weather forecast service that supports various information representation methods like ANSI-sequences for console HTTP clients, HTML, or PNG.',
-        date: 'Aug 11, 2020',
-        image: 'https://1.bp.blogspot.com/-OW7jX57tea4/XvnGxuEOslI/AAAAAAAABW0/R8lVT1AXDSwnvE0EGA9Ra49-LDm1ACwDgCK4BGAsYHg/s1216/wttr1.png',
-        url: 'https://hackzism.blogspot.com/2020/06/check-weather-from-terminal-using-wttrin.html'
-    },
+    // {
+    //     id: 1,
+    //     title: 'How to Create a REST API Using Loopback 4',
+    //     description: 'Creating a REST API is an essential skill for any modern developer. In this article, we will explore how to harness the power of Loopback 4, a powerful Node.js framework, to easily build and deploy RESTful APIs',
+    //     date: 'Aug 21, 2023',
+    //     image: '',
+    //     url: 'https://blog.tulsipada.in/2023/08/how-to-create-rest-api-using-loopback-4.html'
+    // },
+    // {
+    //     id: 2,
+    //     title: 'CHECK WEATHER FROM TERMINAL USING WTTR.IN',
+    //     description: 'wttr.in is a console-oriented weather forecast service that supports various information representation methods like ANSI-sequences for console HTTP clients, HTML, or PNG.',
+    //     date: 'Aug 11, 2020',
+    //     image: 'https://1.bp.blogspot.com/-OW7jX57tea4/XvnGxuEOslI/AAAAAAAABW0/R8lVT1AXDSwnvE0EGA9Ra49-LDm1ACwDgCK4BGAsYHg/s1216/wttr1.png',
+    //     url: 'https://hackzism.blogspot.com/2020/06/check-weather-from-terminal-using-wttrin.html'
+    // },
     {
         id: 3,
         title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
