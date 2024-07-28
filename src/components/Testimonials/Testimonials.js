@@ -38,6 +38,11 @@ function Testimonials() {
         sliderRef.current.slickPrev();
     };
 
+    const imageStyle = {
+        width: "90px",
+        height: "auto"
+      };
+
     return (
         <>
             {testimonialsData.length > 0 && (
@@ -75,6 +80,7 @@ function Testimonials() {
                                                     src={test.image}
                                                     alt={test.name}
                                                     loading="lazy"
+                                                    style={imageStyle}
                                                 />
                                             </div>
                                             <div
