@@ -149,7 +149,8 @@ function Landing() {
                 </div>
                 <img
                     src={headerData.image}
-                    alt=''
+                    alt={headerData.name}
+                    loading="lazy"
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
