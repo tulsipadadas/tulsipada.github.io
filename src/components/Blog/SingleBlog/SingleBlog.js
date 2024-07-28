@@ -13,7 +13,7 @@ function SingleBlog({ theme, title, desc, date, image, url, id }) {
                 </div>
                 <div className="singleBlog--body">
                     <p style={{color: theme.tertiary}}>{date}</p>
-                    <h4 style={{color: theme.secondary}}>{title}</h4>
+                    <h2 style={{color: theme.secondary}}>{title}</h2>
                     <p style={{color: theme.secondary}}>{desc}</p>
                 </div>
             </a>

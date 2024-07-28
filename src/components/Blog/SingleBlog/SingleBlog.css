@@ -43,7 +43,7 @@
     margin-bottom: 0.65rem;
 }
 
-.singleBlog--body h4 {
+.singleBlog--body h2 {
     font-family: var(--primaryFont);
     margin-bottom: 0.55rem;
     font-size: 19px;
