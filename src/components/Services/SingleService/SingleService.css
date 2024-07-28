@@ -71,7 +71,7 @@
     
 }
 
-.service-content > h4 {
+.service-content > span {
     position: absolute;
     top: 60%;
     height: 60px;
