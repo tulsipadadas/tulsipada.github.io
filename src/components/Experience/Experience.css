@@ -66,13 +66,13 @@
     /* margin-bottom: 0.5rem; */
 }
 
-.experience-details > span {
+.experience-details > h2 {
     font-family: var(--primaryFont);
     font-size: 1.225rem;
     font-weight: 600;
 }
 
-.experience-details > h5 {
+.experience-details > h3 {
     font-family: var(--primaryFont);
     font-size: 1.15rem;
     font-weight: 600;
