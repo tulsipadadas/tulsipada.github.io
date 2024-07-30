@@ -155,6 +155,8 @@ function Landing() {
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.secondary,
                     }}
+                    width="512"
+                    height="496"
                 />
                 <div
                     className='landing--container-right'
