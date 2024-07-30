@@ -80,6 +80,7 @@ function Landing() {
                                 href={socialsData.linkedIn}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='LinkedIn'
                             >
                                 <FaLinkedin
                                     className='landing--social'
@@ -93,6 +94,7 @@ function Landing() {
                                 href={socialsData.github}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='GitHub'
                             >
                                 <FaGithub
                                     className='landing--social'
@@ -106,6 +108,7 @@ function Landing() {
                                 href={socialsData.twitter}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='Twitter'
                             >
                                 <FaTwitter
                                     className='landing--social'
@@ -119,6 +122,7 @@ function Landing() {
                                 href={socialsData.youtube}
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label='YouTube'
                             >
                                 <FaYoutube
                                     className='landing--social'
@@ -132,6 +136,7 @@ function Landing() {
                                 href={socialsData.blogger}
                                 target='_blank'
                                 rel='noreferrer'
+                                 aria-label='Blogger'
                             >
                                 <FaBlogger
                                     className='landing--social'
@@ -144,7 +149,7 @@ function Landing() {
                 </div>
                 <img
                     src={headerData.image}
-                    alt=''
+                    alt={headerData.name}
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
@@ -159,7 +164,7 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
+                        <p>{headerData.title}</p>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 
@@ -180,6 +185,7 @@ function Landing() {
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'
+                                aria-label='contacts'
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>

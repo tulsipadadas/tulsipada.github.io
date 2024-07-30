@@ -16,6 +16,11 @@ function Skills() {
         boxShadow: `0px 0px 30px ${theme.primary30}`
     }
 
+    const imageStyle = {
+        width: "auto",
+        height: "50px"
+      };
+
     return (
         <div className="skills" id='skills' style={{backgroundColor: theme.secondary}}>
             <div className="skillsHeader">
@@ -34,7 +39,7 @@ function Skills() {
                     >
                         {skillsData.map((skill, id) => (
                             <div className="skill--box" key={id} style={skillBoxStyle}>
-                                <img src={skillsImage(skill)} alt={skill} loading="lazy" />
+                                <img src={skillsImage(skill)} alt={skill} loading="lazy"  style={imageStyle}/>
                                 <h3 style={{color: theme.tertiary}}>
                                     {skill}
                                 </h3>

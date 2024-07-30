@@ -3,7 +3,7 @@ name: GitHub Pages Deploy
 on:
   push:
     branches:
-      - '**'
+      - 'master'
 
 jobs:
   build-deploy:
@@ -23,9 +23,6 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      - name: Verify build directory exists
-        run: ls -l ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

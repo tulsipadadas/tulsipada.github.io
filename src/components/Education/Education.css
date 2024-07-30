@@ -59,11 +59,11 @@
     margin-left: 0.6rem;
 }
 
-.education-details > h6 {
+.education-details > p {
     font-family: var(--primaryFont);
     font-size: 0.85rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
 }
 
 .education-details > h4 {
@@ -141,17 +141,17 @@
     .educard-img > img {
         width: 30px;
     }
-    .education-details > h6 {
+    .education-details > p {
         font-size: 0.85rem;
-        margin-bottom: 0.45rem;
+        /* margin-bottom: 0.45rem; */
     }
     
-    .education-details > h4 {
+    .education-details > h2 {
         font-size: 1.125rem;
         line-height: 126%;
     }
     
-    .education-details > h5 {
+    .education-details > h3 {
         font-size: 1.05rem;
         line-height: 126%;
     }

@@ -15,16 +15,16 @@ function Blog() {
 
     const useStyles = makeStyles(() => ({
         viewAllBtn : {
-            color: theme.tertiary, 
+            color: theme.secondary, 
             backgroundColor: theme.primary,
             "&:hover": {
-                color: theme.secondary, 
+                color: theme.tertiary, 
                 backgroundColor: theme.primary,
             }
         },
         viewArr : {
             color: theme.tertiary, 
-            backgroundColor: theme.secondary70,
+            backgroundColor: theme.secondary,
             width: '40px',
             height: '40px',
             padding: '0.5rem',
