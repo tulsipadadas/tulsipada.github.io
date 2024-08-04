@@ -1,7 +1,7 @@
 {
   "name": "tulsipada-portfolio",
-  "homepage": "https://tulsipadadas.github.io",
-  "version": "0.1.0",
+  "homepage": "https://tulsipada.in",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.2",
