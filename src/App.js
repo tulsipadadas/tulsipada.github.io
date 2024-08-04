@@ -8,11 +8,12 @@ import { BackToTop } from './components'
 import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'
+import Notfound from './pages/Notfound/Notfound';
 
 function App() {
 
 
-  
+
 
   // const { theme } = useContext(ThemeContext);
 
@@ -23,12 +24,12 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
           <Route path="/blog" exact component={BlogPage} />
           <Route path="/projects" exact component={ProjectPage} />
-          <Route path="*" exact component={Main} />
+          <Route path="*" exact component={Notfound} />
           <Redirect to="/" />
         </Switch>
       </Router>
