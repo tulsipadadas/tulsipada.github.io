@@ -23,7 +23,7 @@ export const experienceData = [
     },
     {
         id: 1,
-        company: 'Ricomputech Private Limited',
+        company: 'Ricomputech Pvt Ltd',
         jobtitle: 'Intern NodeJs Developer',
         startYear: ' 01 JAN 2022 ',
         endYear: ' 06 JUN 2022 ',
